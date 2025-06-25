@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br"><
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center py-5">
+        <img src="Nicolly imagem.jpg" alt="Imagem Nicolly" class="rounded-circle" width="150" height="150">
+        <p class="lead">Olá, me chamo Nicolly!_</p>
+        <h1>Aprendiz de Programação</h1>
+        <p>Sou estudante do ensino médio e atualmente estou aprendendo e desenvolvendo habilidades em JavaScript, HTML e Scratch. Confira alguns de meus projetos!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <span class="badge bg-secondary">HTML</span>
+            <span class="badge bg-secondary">JavaScript</span>
+            <span class="badge bg-secondary">Scratch</span>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="mb-4">Meus projetos</h2>
+        <div class="row g-4">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagem projeto 1.jpg"card-img-top" alt="Imagem do projeto Weird little dude">
+                    <div class="card-body">
+                        <h5 class="card-title">Weird little dude</h5>
+                        <p class="card-text">Este projeto é uma experimentação no P5.js. Consiste em um personagem que movimenta os olhos com o cursor.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagem projeto 2 corrida.jpg" class="card-img-top" alt="Imagem do projeto Race lace">
+                    <div class="card-body">
+                        <h5 class="card-title">Race Lace (Jogo de Corrida)</h5>
+                        <p class="card-text">Jogo interativo no P5.js com três personagens. Pressione as teclas 'Y', 'L' e 'W' para competir até a linha de chegada.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagem projeto 3 gato mia.jpg" class="card-img-top" alt="Imagem do projeto Gato Mia">
+                    <div class="card-body">
+                        <h5 class="card-title">Gato Mia!</h5>
+                        <p class="card-text">Jogo interativo feito no P5.js. O usuário precisa encontrar um ponto aleatório na tela com o cursor para vencer.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Weird little dude</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto feito com P5.js, com base nas aulas da Alura. Um personagem movimenta os olhos com base no cursor.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100" alt="Imagem do projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/nicollyR/sketches/u_kv2JkSH" target="_blank">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Race Lace</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto interativo com personagens que correm ao pressionar teclas específicas. Feito em P5.js.</p>
+                    <img src="img/imagem projeto 2 corrida.jpg" class="img-fluid w-100" alt="Imagem do projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/nicollyR/sketches/tQtfCdcD4" target="_blank">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Gato Mia!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O objetivo é encontrar um ponto aleatório com o mouse. Projeto feito no P5.js com base nas aulas da Alura.</p>
+                    <img src="img/imagem projeto 3 gato mia.jpg" class="img-fluid w-100" alt="Imagem do projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/nicollyR/sketches/gHpJPmT7V" target="_blank">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5 text-center">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti" target="_blank">GitHub</a>
+        </div>
+        <p class="mt-4">Projetos por Nicolly M.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
